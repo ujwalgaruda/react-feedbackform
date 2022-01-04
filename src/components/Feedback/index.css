@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+.bg-container {
+    background-image: linear-gradient(to right, #fdd30f, #ffdd41);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .feedback-card {
+    width: 80%;
+    max-width: 610px;
+    border-radius: 10px;
+    background-color: #ffe56a;
+    padding: 24px;
+  }
+  @media only screen and (min-width: 768px) {
+    .feedback-card {
+      padding: 35px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .feedback-card {
+      padding: 64px;
+    }
+  }
+  
+  .header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #3e3e33;
+  }
+  @media only screen and (min-width: 992px) {
+    .header {
+      font-size: 32px;
+    }
+  }
+  
+  .emoji-wrapper {
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .btn {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .emoji-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  @media only screen and (min-width: 992px) {
+    .emoji-icon {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .emoji-title {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  @media only screen and (min-width: 992px) {
+    .emoji-title {
+      font-size: 22px;
+    }
+  }
+  .thanks-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .love-icon {
+    height: 50px;
+    width: 50px;
+  }
+  .thanks-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #3e3e33;
+  }
+  @media only screen and (min-width: 992px) {
+    .thanks-header {
+      font-size: 32px;
+    }
+  }
+  .desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 992px) {
+    .desc {
+      font-size: 22px;
+    }
+  }
+  .feedback-img{
+      height: 300px;
+  }
