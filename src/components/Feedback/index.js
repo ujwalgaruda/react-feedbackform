@@ -15,7 +15,7 @@ class Feedback extends Component {
     return (
       <div className="feedback-card">
         <h1 className="header">
-          How satisfied are you with our customer support performance?
+          How satisfied are you with our customer service?
         </h1>
         <ul className="emoji-wrapper">
           {emojis.map(eachEmoji => (
@@ -45,7 +45,7 @@ class Feedback extends Component {
         <img className="love-icon" alt="love emoji" src={loveEmojiUrl} />
         <h1 className="thanks-header">Thank You</h1>
         <p className="desc">
-          We will use your feedback to improve our customer support performance
+          Your feedback is highly valuable and helpful for us to serve you even better!
         </p>
       </div>
     )
