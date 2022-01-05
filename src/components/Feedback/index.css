@@ -4,12 +4,19 @@
     background-image: linear-gradient(to right, #fdd30f, #ffdd41);
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
+
+  @media only screen and (min-width:768px) {
+    .bg-container{
+      flex-direction: row;
+    }
+  }
   .feedback-card {
     width: 80%;
-    max-width: 610px;
+    max-width: 400px;
     border-radius: 10px;
     background-color: #ffe56a;
     padding: 24px;
@@ -17,6 +24,7 @@
   @media only screen and (min-width: 768px) {
     .feedback-card {
       padding: 35px;
+      max-width: 610px;
     }
   }
   @media only screen and (min-width: 992px) {
@@ -104,5 +112,11 @@
     }
   }
   .feedback-img{
+      height: 200px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .feedback-img{
       height: 300px;
+    }
   }
